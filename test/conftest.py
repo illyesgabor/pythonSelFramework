@@ -19,11 +19,11 @@ def setup(request):
     if browser_name == "chrome":
         options = webdriver.ChromeOptions()
         options.add_experimental_option("detach", True)
-        service_obj = Service("C//Users/Gabor/PycharmProjects/pythonSelenium/chromedriver.exe")
+        service_obj = Service("C//Users/Gabor/PycharmProjects/pythonSelFramework/chromedriver.exe")
         driver = webdriver.Chrome(service=service_obj, options=options)
 
     elif browser_name == "firefox":
-        service_obj = Service_ff("C//Users/Gabor/PycharmProjects/pythonSelenium/geckodriver.exe")
+        service_obj = Service_ff("C//Users/Gabor/PycharmProjects/pythonSelFramework/geckodriver.exe")
         driver = webdriver.Firefox(service=service_obj)
 
     driver.get("https://rahulshettyacademy.com/angularpractice/")
