@@ -1,0 +1,24 @@
+2023-05-26 19:47:17,844 : INFO : test_e2e : Getting all card titles.
+2023-05-26 19:47:18,017 : INFO : test_e2e : iphone X
+2023-05-26 19:47:18,023 : INFO : test_e2e : Samsung Note 8
+2023-05-26 19:47:18,027 : INFO : test_e2e : Nokia Edge
+2023-05-26 19:47:18,032 : INFO : test_e2e : Blackberry
+2023-05-26 19:47:18,190 : INFO : test_e2e : Entering country name as Hun.
+2023-05-26 19:47:23,467 : INFO : test_e2e : Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2023-05-26 19:57:53,945 : INFO : test_e2e : Getting all card titles.
+2023-05-26 19:57:54,110 : INFO : test_e2e : iphone X
+2023-05-26 19:57:54,116 : INFO : test_e2e : Samsung Note 8
+2023-05-26 19:57:54,120 : INFO : test_e2e : Nokia Edge
+2023-05-26 19:57:54,125 : INFO : test_e2e : Blackberry
+2023-05-26 19:57:54,280 : INFO : test_e2e : Entering country name as Hun.
+2023-05-26 19:57:59,519 : INFO : test_e2e : Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2023-05-26 20:10:51,600 : INFO : test_e2e : Getting all card titles.
+2023-05-26 20:10:51,687 : INFO : test_e2e : iphone X
+2023-05-26 20:10:51,691 : INFO : test_e2e : Samsung Note 8
+2023-05-26 20:10:51,697 : INFO : test_e2e : Nokia Edge
+2023-05-26 20:10:51,701 : INFO : test_e2e : Blackberry
+2023-05-26 20:10:51,840 : INFO : test_e2e : Entering country name as Hun.
+2023-05-26 20:10:57,116 : INFO : test_e2e : Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
