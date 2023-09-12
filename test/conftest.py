@@ -19,11 +19,11 @@ def setup(request):
     if browser_name == "chrome":
         options = webdriver.ChromeOptions()
         options.add_experimental_option("detach", True)
-        service_obj = Service("C//Users/Gabor/PycharmProjects/pythonSelFramework/chromedriver.exe")
-        driver = webdriver.Chrome(service=service_obj, options=options)
+        service = Service("./chromedriver.exe")
+        driver = webdriver.Chrome(options=options, service=service)
 
     elif browser_name == "firefox":
-        service_obj = Service_ff("C//Users/Gabor/PycharmProjects/pythonSelFramework/geckodriver.exe")
+        service_obj = Service_ff("./geckodriver.exe")
         driver = webdriver.Firefox(service=service_obj)
 
     driver.get("https://rahulshettyacademy.com/angularpractice/")
@@ -32,7 +32,7 @@ def setup(request):
     driver.close()
 
 
-@pytest.mark.hookwrapper
+@pytest.hookimpl(hookwrapper=True)
 def pytest_runtest_makereport(item):
     """
         Extends the PyTest Plugin to take and embed screenshot in html report, whenever test fails.
